@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #fff;
+    min-height: 100vh;
+}
+header {
+    width: 300px;
+    background: black;
+}
+.ava{
+    position: right;
+    border-radius: 25px;
+    margin: 30px;
+}
+.sorting{    
+    font-size: 0;
+    background: #986754;
+    text-align: center;
+}
+section{    
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    background-color: violet;
+}
+section a{
+    display: inline-block;
+    background: red;
+    line-height: 40px;
+    width: 80px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+section ul{
+    
+    transform: translateY(-100%);
+    position: absolute;
+    background: gold;
+    color: blue;
+    list-style: none;
+    font-size: 16px;
+    left: 0;
+    top: 40px;
+    z-index: -1;
+    transition: 3s;
+}
+section:hover ul{
+    transform: translateY(0%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* https://stepik.org/lesson/41867/step/1?unit=20185 */

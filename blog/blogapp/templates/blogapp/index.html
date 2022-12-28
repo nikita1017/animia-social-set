@@ -1,0 +1,61 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог на джанге</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'blogapp/style.css' %}">
+</head>
+
+<body>
+    <header>
+        <img class="ava" src="{% static 'blogapp/ava.jpg' %}" alt="">
+        <h1>Бог этого сайта</h1>
+        <p>Вы все боты хахаххахаха</p>
+
+    </header>
+    <main>
+        <div class="sorting">
+            <section>
+                <a href="">Жанры</a>
+                <ul>
+                    <li>Аниме</li>
+                    <li>Сёнен</li>
+                    <li>Сэнтай</li>
+                    <li>Сёдзё</li>
+                    <li>Сэйнэн</li>
+                    <li>Дзёсэй</li>
+                    <li>Комедия</li>
+                    <li>Пародия</li>
+                    <li>Романтика</li>
+                    <li>Гарем</li>
+                </ul>
+
+            </section>            
+            <section>
+                <a href="">Студии</a>
+                <ul>
+                    <li>Toei Animation</li>
+                    <li>Sunrise</li>
+                    <li>Madhouse</li>
+                </ul>
+            </section>
+            <section>
+                <a href="">Годы</a>
+                <ul>
+                    <li>1917</li>
+                    <li>2000-2010</li>
+                    <li>2012-2020</li>
+                    <li>2021-2023</li>
+                </ul>
+            </section>
+
+        </div>
+    </main>
+</body>
+
+</html>
